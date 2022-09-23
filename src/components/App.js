@@ -1,7 +1,7 @@
 import { Card } from 'primereact/card';
 const App = () => {
     return (
-        <Card> App </Card>
+        <Card> <busca/> </Card>
     )
 }
 
