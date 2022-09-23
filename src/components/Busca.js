@@ -1,6 +1,6 @@
-import React, {components} from 'react'
-import {inputtext} from 'primereact/inputtext'
-import {Button} from 'primereact/Button'
+import React, {Component} from 'react'
+import { InputText } from 'primereact/inputtext'
+import { Button }  from 'primereact/button'
 export default class Busca extends Component{
     state = {
         termoDebusca:''
@@ -13,14 +13,14 @@ export default class Busca extends Component{
             <div className='flex flex-column'>
                 <span className='p-input-icon-left w-full'>
                     <i className='pi pi-search'></i>
-                    <inputtext
+                    <InputText
                     className= 'w-full'
                     onchenge={this.onTermoAlterado}
                     placeholder = {this.props.dica}
                     />
                     
                 </span>
-                <button
+                <Button
                 label='OK'
                 className='p button-outlined mt-2'
                 />

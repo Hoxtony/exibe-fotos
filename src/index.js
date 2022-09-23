@@ -5,6 +5,6 @@ import 'primeicons/primeicons.css'
 import 'primeflex/primeflex.css'
 import 'primereact/resources/themes/bootstrap-light-blue/theme.css'
 ReactDOM.render(
-    <App/>,
+    <App />,
     document.querySelector('#root')
-);
+)
